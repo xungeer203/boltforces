@@ -11,9 +11,12 @@ v0, w0 = center of the pattern
 Fu, Fv, Fw, Mu, Mv, Mw = external load in the center of pattern  
 load_list = [Fu, Fv, Fw, Mu, Mv, Mw]
 
-# I/O
-## input
+# input
 each bolt's position: v_list, w_list  
 load in the center of pattern: load_list
-## output
+# output
 a .csv file
+
+# to do
+plot the pattern with matplotlib  
+read input from .csv file
